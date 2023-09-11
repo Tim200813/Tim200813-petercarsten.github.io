@@ -1,0 +1,5 @@
+/* Stil für das Bild */
+#vergroessertes-bild {
+    width: 300px; /* Ändere die Breite nach Bedarf */
+    height: auto; /* Behält das Seitenverhältnis bei */
+}

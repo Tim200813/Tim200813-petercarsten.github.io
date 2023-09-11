@@ -1,0 +1,34 @@
+/* Hier fügen wir einige Stile für den Kasten hinzu */
+/* Hier fügen wir einige Stile für den Kasten hinzu */
+.bottom-box {
+  background-color: #000000;
+  position: absolute;
+  top: 170%; /* Verschiebt den Kasten vertikal zur Mitte der Seite */
+  left: 90%; /* Verschiebt den Kasten horizontal zur Mitte der Seite */
+  transform: translate(-90%, -50%); /* Zentriert den Kasten perfekt */
+  padding: 40px;
+  margin: 60px auto;
+  width: 1440px; /* Ändere die Breite nach Bedarf */
+  height: 50px; /* Ändere die Höhe nach Bedarf */
+  max-width: 90000px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
+}
+
+/* Stil für den Link */
+a#impress-link {
+  text-decoration: none; /* Entfernt die Standardunterstreichung */
+  color: #ffffff; /* Linkfarbe - ändere nach Bedarf */
+  font-weight: bold; /* Fettgedruckter Text für den Link */
+  transition: color 0.3s;
+  position: absolute;
+  top: 40%; /* Verschiebt den Kasten vertikal zur Mitte der Seite */
+  left: 50%;   /* Verschiebt den Kasten horizontal zur Mitte der Seite */
+  font-size: 24px; /* Schriftgröße - ändere nach Bedarf */
+  transform: translate(-90%, -50%); /* Fügt einen sanften Farbübergang hinzu */
+}
+
+/* Stil für den Link beim Hovern (Mauszeiger darüber bewegen) */
+a#impress-link:hover {
+  color: #ff5500; /* Farbänderung beim Hover-Effekt - ändere nach Bedarf ff5500 */
+}
